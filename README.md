@@ -30,12 +30,20 @@ Para ejecutar el sistema solo es necesario descargar los archivos y ejecutar el 
 ## Descripción detallada
 
 - **Ingreso de nombres**
-  - El usuario puede usar el `input` para ingresar un nombre. Al hacer click en el boton «Añadir», este se mostrara en la parte inferior mediante una lista `HTML`. A su vez, esta acción provocará que el nombre se ingrese en una lista `JS`.
-  - Al presionar el botón «Añadir», sucede unua verificación intena mediante un test. Esta determina si el dato ingresado no está vació, además de que contenga solo texto. En caso de que lo ingresado no cumpla las condciones, no se registrará y un `alert` pedirá un dato correcto.
+  - El usuario puede usar el `input` para ingresar un nombre.
+  - Al hacer click en el boton «Añadir», se ejecutara una `function`, la cual, mediante un bucle `for`, añadirá el nombre a una lista `HTML`, por lo que se mostrara en la parte inferior del `input`.
+  - A su vez, la acción anterior provocará que el nombre se ingrese en un `array` y que la celda del `input` se vacíe.
+  - Durant la acción de pulsar el boton «Añadir», sucede unua verificación intena mediante un `test`. Esta determina que el dato ingresado no está vació, además de que contenga solo texto. En caso de que lo ingresado no cumpla las condciones, no se registrará y un `alert` pedirá un dato correcto.
+
 - **Sorteo**
-****
+  - AL pulsar el boton «Sortear amigo», una `function` genera un numero aleatorio entre cero y la cantidad de datos ingresados mediante `Math.random`.
+  - El numero generado pasa a convertirse en una variable, posteriormente, esta será usada para sleccionar el dato que corresponda con esa posición númerica en el `array`.
+  - Una vez que esto sucede, la lista de nombres se elimina y el nombre selccionado pasara a mostrarse en un `HTML` color verde debajo del `input`.
 
 ## Demostración
+![Gif]()
+![Img]()
+
 
 ## Detalles del código
 
