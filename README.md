@@ -41,7 +41,7 @@ Para ejecutar el sistema solo es necesario descargar los archivos y ejecutar el 
   - Una vez que esto sucede, la lista de nombres se elimina y el nombre selccionado pasara a mostrarse en un `HTML` color verde debajo del `input`.
 
 ## Demostración
-![Gif]()
+<img src="assets/sorteo.gif" alt="Demostración" width="500" />
 ![Img]()
 
 
