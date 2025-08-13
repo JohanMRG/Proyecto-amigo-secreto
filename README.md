@@ -20,7 +20,7 @@ El próposito del proyecto es implemntar un sistema funcional de selección alea
 
 ## Uso del sistema
 Para ejecutar el sistema solo es necesario descargar los archivos y ejecutar el archivo `HTML` en el navegador.
-También puedes visitar [Mi GitHub Page](https://johanmrg.github.io/Proyecto-amigo-secreto/)
+También puedes visitar [Mi GitHub Page](https://johanmrg.github.io/Proyecto-amigo-secreto/) como alternativa.
 
 ## Funciones del sistema
 La página es un sistema de sorteo simple, contruido mediante `html`, `css` y `Js` que tiene las siguientes funciones:
