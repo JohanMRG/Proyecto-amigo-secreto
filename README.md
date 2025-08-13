@@ -56,4 +56,3 @@ La página es un sistema de sorteo simple, contruido mediante `html`, `css` y `J
 <a href="https://github.com/JohanMRG" target="_blank">
   <img src="https://github.com/JohanMRG.png" width="200" alt="Foto de perfil" />
 </a>
-
